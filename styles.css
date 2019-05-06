@@ -3,12 +3,18 @@ body {
   background-color: #ffffff;
   color: #000000;
 }
-.navbar {
-  text-align: center;
-}
 a {
   color: rgb(0, 0, 127);
 }
 a:visited {
   color: rgb(128, 0, 255);
+}
+.navbar {
+  text-align: center;
+  border-style: groove;
+  border-bottom-left-radius: 51px 50%;
+  border-bottom-right-radius: 51px 50%;
+  border-top-left-radius: 51px 50%;
+  border-top-right-radius: 51px 50%;
+  border-width: 2px 0px;
 }
