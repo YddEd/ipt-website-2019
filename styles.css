@@ -3,18 +3,54 @@ body {
   background-color: #ffffff;
   color: #000000;
 }
-a {
-  color: rgb(0, 0, 127);
-}
-a:visited {
-  color: rgb(128, 0, 255);
-}
 .navbar {
   text-align: center;
+  line-height: 125%;
   border-style: groove;
   border-bottom-left-radius: 51px 50%;
   border-bottom-right-radius: 51px 50%;
   border-top-left-radius: 51px 50%;
   border-top-right-radius: 51px 50%;
   border-width: 2px 0px;
+  box-shadow: 2px 2px 4px 3px #808080;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #000000;
+  background-color: #dcdcdc;
+  line-height: 125%;
+  border-style: groove;
+  border-bottom-left-radius: 25px 50%;
+  border-bottom-right-radius: 25px 50%;
+  border-top-left-radius: 25px 50%;
+  border-top-right-radius: 25px 50%;
+  border-width: 1px 0px;
+  width: 90%;
+  float: center;
+  margin: auto;
+}
+li {
+  float: left;
+}
+li a {
+  color: rgb(0, 0, 0);
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+}
+li a.active {
+  background-color: rgb(187, 16, 16);
+  color: rgb(72, 230, 230);
+}
+li a:hover:not(.active) {
+  background-color: #e0ffff;
+}
+a {
+  color: rgb(0, 0, 127);
+}
+a:visited {
+  color: rgb(128, 0, 255);
 }
