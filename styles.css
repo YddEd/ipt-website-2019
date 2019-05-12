@@ -1,56 +1,68 @@
+/* Body Styles */
 body {
-  font-family: "Ubuntu Light", sans-serif;
-  background-color: #ffffff;
-  color: #000000;
+    font-family: "Ubuntu Light", sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 12;
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
+/* Navigation Bar Styles */
 .navbar {
-  text-align: center;
-  line-height: 125%;
-  border-style: groove;
-  border-bottom-left-radius: 51px 50%;
-  border-bottom-right-radius: 51px 50%;
-  border-top-left-radius: 51px 50%;
-  border-top-right-radius: 51px 50%;
-  border-width: 2px 0px;
-  box-shadow: 2px 2px 4px 3px #808080;
+    text-align: center;
+    line-height: 125%;
+    border-bottom: solid;
+    border-width: 1px 0px;
+    font-family: "Ubuntu Bold", sans-serif;
+    font-size: 15;
+    background-color: #ffffff;
+    padding: 0px;
+    right: 0;
 }
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  border: 1px solid #000000;
-  background-color: #dcdcdc;
-  line-height: 125%;
-  border-style: groove;
-  border-bottom-left-radius: 25px 50%;
-  border-bottom-right-radius: 25px 50%;
-  border-top-left-radius: 25px 50%;
-  border-top-right-radius: 25px 50%;
-  border-width: 1px 0px;
-  width: 90%;
-  float: center;
-  margin: auto;
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 0.1px solid #000000;
+    background-color: #ffffff;
+    line-height: 125%;
+    border-width: 1px 0px;
+    width: 100%;
+    float: center;
+    margin: auto;
+    font-size: 15;
+    font-family: "Ubuntu Bold", sans-serif;
+    box-shadow: 1px 1px 0px 1px#594f4f;
 }
-li {
-  float: left;
+.navbar li {
+    float: left;
 }
-li a {
-  color: rgb(0, 0, 0);
-  display: block;
-  text-align: center;
-  padding: 14px 16px;
+.navbar li a {
+    color: rgb(0, 0, 0);
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
-li a.active {
-  background-color: rgb(187, 16, 16);
-  color: rgb(72, 230, 230);
+/* Cursor hover colour for navbar */
+.navbar li a:hover:not(.active) {
+    background-color: #e0ffff;
+    /*background-color: #45ada8;*/
 }
-li a:hover:not(.active) {
-  background-color: #e0ffff;
+.navbar a {
+    transition: 0.3s background-color;
 }
-a {
-  color: rgb(0, 0, 127);
+.navbar a.active {
+    color: rgb(120, 71, 255);
+    cursor: pointer;
 }
-a:visited {
-  color: rgb(128, 0, 255);
+
+/* Header Styles */
+.header {
+    width: 100%;
+}
+h1 {
+    text-align: center;
 }
