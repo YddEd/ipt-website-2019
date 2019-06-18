@@ -1,6 +1,7 @@
 /* Body Styles */
 body {
-    font-family: "Ubuntu Light", sans-serif;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
     background-color: #ffffff;
     color: #000000;
     font-size: 12px;
@@ -14,6 +15,8 @@ body {
     border-width: 1px 0px;
 }
 .navbar a {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
     padding: 14px 16px;
     float: right;
     font-size: 16px;
@@ -21,8 +24,11 @@ body {
     text-decoration: none;
 }
 .navbar .logo {
-    max-width: 10%;
-    max-height: 50px;
+    width: 182px;
+    height: 47px;
+    position: absolute;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
 }
 /* Cursor hover colour for navbar */
 .navbar a:hover,
@@ -41,7 +47,8 @@ body {
     outline: none;
     color: black;
     background-color: inherit;
-    font-family: "Ubuntu Light", sans-serif;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
     padding: inherit;
     margin: 0;
 }
@@ -49,7 +56,8 @@ body {
     display: block;
 }
 .iptmenu {
-    font-family: "Ubuntu Light", sans-serif;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
     font-size: 10px;
     display: none;
     position: absolute;
@@ -71,7 +79,8 @@ body {
 /* Header Styles */
 .header {
     width: 100%;
-    font-family: "Ubuntu Light", sans-serif;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
 }
 /*Middle Section styles*/
 .middle {
